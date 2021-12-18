@@ -1,5 +1,7 @@
 ## GDSC Website work
 
+Actual work is going on in `version-1.0` branch.
+
 ## Available Scripts
 
 In the project directory, you can run:
