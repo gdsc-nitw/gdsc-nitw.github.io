@@ -1,8 +1,11 @@
+import { Row, Col } from "react-bootstrap";
 import Section from "../Section";
 import ProfileCard from "./ProfileCard";
+import amritPandey from "./amrit_pandey.jpg";
 
 const teamMembers = [
   {
+    memberPic: amritPandey,
     memberName: "Amrit Pandey",
     memberPost: "Head of PR and Social Media",
     memberBio: "2 years of web development experience",
@@ -16,7 +19,11 @@ const teamMembers = [
 
 function renderMembers(teamMembers) {
   return teamMembers.map((member) => {
-    return <ProfileCard {...member}></ProfileCard>;
+    return (
+      <Col md={3}>
+        <ProfileCard {...member}></ProfileCard>
+      </Col>
+    );
   });
 }
 
@@ -26,7 +33,7 @@ function Team(props) {
       sectionName='team'
       sectionTitle='Meet our Team'
       sectionTinyIntro='Passionate students driving success of the program'>
-      {renderMembers(teamMembers)}
+      <Row>{renderMembers(teamMembers)}</Row>
     </Section>
   );
 }

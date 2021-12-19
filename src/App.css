@@ -21,7 +21,7 @@
 }
 
 .headerNavbar {
-  padding: 2rem 0;
+  padding: 1.2rem 0;
 box-shadow: 0px 8px 20px -14px rgba(0,0,0,0.2);
 }
 
@@ -67,6 +67,11 @@ box-shadow: 0px 8px 20px -14px rgba(0,0,0,0.2);
   font-size: 2em;
 }
 
+.techCardTitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
 .eventListItem {
   padding: 1rem;
   margin-bottom: 0.5rem;
@@ -74,4 +79,61 @@ box-shadow: 0px 8px 20px -14px rgba(0,0,0,0.2);
 
 .eventTag {
   margin-left: 10px;
+}
+.profileCard {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.profileCardText {
+  padding: 0 1rem 3rem 1rem; 
+  margin-top: 70px;
+}
+
+.memberPic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 2em;
+  min-height: 130px;
+}
+
+.memberPic img{
+  position: absolute;
+  bottom: -65px;
+  max-width: 130px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  box-shadow: 0px 8px 20px -14px rgba(0,0,0,0.8);
+}
+
+.memberName {
+  font-weight: 300;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+.memberPost {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.memberBio {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.memberSocials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

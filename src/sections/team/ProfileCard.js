@@ -1,25 +1,32 @@
+import {Image} from 'react-bootstrap';
+
 function renderSocialLinks(socialLinks) {
   return Object.keys(socialLinks).map((to, link) => {
-    return <a href={socialLinks[to]}>
-      {to}
-    </a>
+    return (<li><a href={socialLinks[to]}>
+      {`${to} `}
+    </a></li>)
   });
 }
 
 function ProfileCard(props) {
   return (
-    <div>
+    <div className="profileCard">
+      <div className="memberPic">
+        <Image fluid={true} src={props.memberPic}></Image>
+      </div>
+      <div className='profileCardText'>
       <div className="memberName">
         {props.memberName}
       </div>
-      <small className="memberPost">
+      <div className="memberPost">
         {props.memberPost}
-      </small>
+      </div>
       <p className="memberBio">
         {props.memberBio}
       </p>
-      <div className="memberSocials">
+      <ul className="memberSocials">
         {renderSocialLinks(props.memberSocials)}
+      </ul>
       </div>
     </div> 
   );
