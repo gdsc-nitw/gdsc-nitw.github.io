@@ -1,0 +1,39 @@
+[
+    {
+    "date": "2021-11-07",
+    "title": "Google Summer of Code - Decoded",
+    "venue": "Online/Virtual",
+    "time": "06:00 PM - 08:00 PM IST",
+    "tags": ["gsoc"
+        ],
+    "pageLink": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-warangal-presents-google-summer-of-code-decoded/"
+    },
+    {
+    "date": "2021-10-30",
+    "title": "30 Days of Cloud Closing Ceremony",
+    "venue": "Online/Virtual",
+    "time": "07:00 PM - 08:00 PM IST",
+    "tags": ["cloud"
+        ],
+    "pageLink": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-warangal-presents-30-days-of-cloud-closing-ceremony/"
+    },
+    {
+    "date": "2021-09-21",
+    "title": "30 Days of Cloud Info Session",
+    "venue": "Online/Virtual",
+    "time": "05:00 PM - 6:30 PM IST",
+    "tags": ["cloud", "workshop"
+        ],
+    "pageLink": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-warangal-presents-30-days-of-cloud-info-session/"
+    },
+    {
+    "date": "2021-09-12",
+    "title": "Introductory Session",
+    "venue": "Online/Virtual",
+    "time": "06:00 PM - 07:30 PM IST",
+    "tags": ["intro"
+        ],
+    "pageLink": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-warangal-presents-introductory-session/"
+    }
+    
+]

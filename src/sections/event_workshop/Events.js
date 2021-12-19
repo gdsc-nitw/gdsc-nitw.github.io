@@ -1,9 +1,44 @@
-import { Tab, Tabs, ListGroup, Badge } from "react-bootstrap";
-import { propTypes } from "react-bootstrap/esm/Image";
+import { Tab, Tabs, ListGroup} from "react-bootstrap";
 import Section from "../Section";
 import EventEntry from "./EventEntry";
+import eventList from "../../eventsData.json"
+
+function renderEventListUpcoming(eventList) {
+  return eventList.map((event) => {
+    const eventDate = new Date(event.date);
+    const today = new Date();
+    if (today < eventDate) {
+      return <EventEntry {...event}></EventEntry>
+    }
+    return undefined;
+  });
+}
+
+function renderEventListPast(eventList) {
+  return eventList.map((event) => {
+    const eventDate = new Date(event.date);
+    const today = new Date();
+    if (today > eventDate) {
+      return <EventEntry {...event}></EventEntry>
+    }
+    return undefined;
+  });
+}
+
+let activeTab = "pastEvents";
+
+function selectUpcomingTab(eventList) {
+  eventList.forEach(e => {
+    const eventDate = new Date(e.date);
+    const today = new Date();
+    if (eventDate > today) {
+      activeTab = "upcomingEvents";
+    }
+  });
+}
 
 function Events(props) {
+  selectUpcomingTab(eventList);
   return (
     <Section
       sectionName='eventsworkshop'
@@ -11,16 +46,16 @@ function Events(props) {
       sectionTinyIntro='Come learn, share and connect with us in person'
       bgColor={props.bgColor}>
       <Tabs
-        defaultActiveKey='profile'
-        id='uncontrolled-tab-example'
+        defaultActiveKey={activeTab}
         className='mb-3'>
-        <Tab eventKey='home' title='Upcoming'>
+        <Tab eventKey='upcomingEvents' title='Upcoming'>
           <ListGroup as='ol' numbered>
-              <EventEntry entryTitle="30 Days of Cloud" entryDetails="Learn essentials of Google Cloud Platform in 30 days of Cloud campaign."
-              tags={['cloud', 'workshop']} registrationLink="https://google.com"></EventEntry>
+            {renderEventListUpcoming(eventList)} 
           </ListGroup>
         </Tab>
-        <Tab eventKey='profile' title='Past'></Tab>
+        <Tab eventKey='pastEvents' title='Past'>
+          {renderEventListPast(eventList)}
+        </Tab>
       </Tabs>
     </Section>
   );
