@@ -2,6 +2,11 @@
 
 Actual work is going on in `version-1.0` branch.
 
+![output1](https://ibb.co/Xk7vTFP)
+![output2](https://ibb.co/6DM50Ln)
+![output3](https://ibb.co/2FtN5jk)
+![output4](https://ibb.co/YWtWbgm)
+
 ## Available Scripts
 
 In the project directory, you can run:
