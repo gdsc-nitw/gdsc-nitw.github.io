@@ -2,10 +2,10 @@
 
 Actual work is going on in `version-1.0` branch.
 
-![output1](https://ibb.co/Xk7vTFP)
-![output2](https://ibb.co/6DM50Ln)
-![output3](https://ibb.co/2FtN5jk)
-![output4](https://ibb.co/YWtWbgm)
+<img src="https://i.ibb.co/rfx1J5h/Screenshot-2021-12-19-205006.jpg" alt="Screenshot-2021-12-19-205006" border="0">
+<img src="https://i.ibb.co/1RgxGjv/Screenshot-2021-12-19-205017.jpg" alt="Screenshot-2021-12-19-205017" border="0">
+<img src="https://i.ibb.co/4FTdJjV/Screenshot-2021-12-19-205025.jpg" alt="Screenshot-2021-12-19-205025" border="0">
+<img src="https://i.ibb.co/0XfXQ5T/Screenshot-2021-12-19-205034.jpg" alt="Screenshot-2021-12-19-205034" border="0">
 
 ## Available Scripts
 
