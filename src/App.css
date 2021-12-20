@@ -11,6 +11,29 @@
   margin-bottom: 2rem;
 }
 
+.brandLogo {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+}
+
+.brandInnerContainer {
+  font-size: 0.95rem;
+  margin-left: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.brandInnerContainer small {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
 .navCtaButton {
   padding: 0.3rem 0.8rem;
   margin: 0;
@@ -20,7 +43,6 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: #0d6efd;
   color: #fefefe;
   font-weight: 600;
   border-radius: 50px;
@@ -33,13 +55,12 @@
 }
 
 .headerNavbar {
-  padding: 1.2rem 0;
-  box-shadow: 0px 8px 20px -14px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 20px -14px rgba(0, 0, 0, 0.4);
 }
 
 .navLinkItem {
   font-size: 1rem;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
 #headerHero {
@@ -111,7 +132,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
   padding: 2em;
   min-height: 130px;
 }
@@ -170,4 +190,13 @@
 
 .comBtn + .comBtn {
   margin-left: 3rem;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footerSocialIcons a {
+  color: #f3f3f3;
+  font-size: 2rem;
 }

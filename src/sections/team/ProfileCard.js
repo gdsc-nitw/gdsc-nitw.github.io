@@ -1,4 +1,5 @@
 import {Image, Button} from 'react-bootstrap';
+import settings from "../../settings";
 
 function renderSocialLinks(socialLinks) {
   return Object.keys(socialLinks).map((to, link) => {
@@ -13,7 +14,7 @@ function renderSocialLinks(socialLinks) {
 function ProfileCard(props) {
   return (
     <div className="profileCard">
-      <div className="memberPic">
+      <div className="memberPic" style={{backgroundColor: settings.themeColor}}>
         <Image fluid={true} src={props.memberPic}></Image>
       </div>
       <div className='profileCardText'>
