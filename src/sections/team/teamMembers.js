@@ -50,7 +50,7 @@ const teamMembers = [
     memberPic: deepakGupta,
     memberName: "Deepak Gupta",
     memberPost: "Head of Design Operations",
-    memberBio: "JavaScript | Blender",
+    memberBio: "Community Manager @layer5 | @Allthingsopen Ambassador '21 | Google DSC Core '21",
     memberSocials: {
       linkedin: "https://www.linkedin.com/in/deepak-kumar-gupta-45bba921a/",
       twitter: "https://twitter.com/Mr_dg_wick",
