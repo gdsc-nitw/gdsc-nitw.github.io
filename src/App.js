@@ -6,6 +6,7 @@ import About from './sections/about/About';
 import Technologies from './sections/technologies/Technologies';
 import Events from './sections/event_workshop/Events';
 import Team from './sections/team/Team';
+import Communities from './sections/communities/Communities';
 import Footer from './sections/footer/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Technologies />
       <Events bgColor="#f3f3f3" />
       <Team />
+      <Communities bgColor="#f3f3f3" />
       <Footer bgColor="#212529" />
     </div>
   );

@@ -8,9 +8,7 @@ function Footer(props) {
               Copyright&copy; 2021. All rights reserved.
           </Col>
           <Col md={4}>
-              <b>Join Communities</b><br />
-              <Button href = 'https://google.com'>Discord</Button>
-              <Button href = 'https://google.com'>WhatsApp</Button>
+              
           </Col>
           <Col md={4}>
               Partners

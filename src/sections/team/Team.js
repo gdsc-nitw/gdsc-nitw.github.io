@@ -1,21 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import Section from "../Section";
 import ProfileCard from "./ProfileCard";
-import amritPandey from "./amrit_pandey.jpg";
-
-const teamMembers = [
-  {
-    memberPic: amritPandey,
-    memberName: "Amrit Pandey",
-    memberPost: "Head of PR and Social Media",
-    memberBio: "2 years of web development experience",
-    memberSocials: {
-      linkedin: "https://linkedin.com/okape",
-      github: "https://github.com/ok-ape",
-      website: "https://www.okape.co.in",
-    },
-  },
-];
+import teamMembers from "./teamMembers";
 
 function renderMembers(teamMembers) {
   return teamMembers.map((member) => {

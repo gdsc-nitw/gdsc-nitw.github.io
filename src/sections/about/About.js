@@ -1,7 +1,7 @@
 import {Row} from 'react-bootstrap';
 import Section from "../Section";
 import AboutCard from "./AboutCard";
-import { faRocket, faLightbulb, faUsers} from '@fortawesome/free-solid-svg-icons'
+import { faRocket, faLightbulb, faUsers} from '@fortawesome/free-solid-svg-icons';
 
 function About(props) {
   return (

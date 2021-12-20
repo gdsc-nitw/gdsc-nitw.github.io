@@ -1,10 +1,12 @@
-import {Image} from 'react-bootstrap';
+import {Image, Button} from 'react-bootstrap';
 
 function renderSocialLinks(socialLinks) {
   return Object.keys(socialLinks).map((to, link) => {
-    return (<li><a href={socialLinks[to]}>
-      {`${to} `}
-    </a></li>)
+    return (
+      <li>
+        <Button size="sm" variant='primary' href={socialLinks[to]}>{to}</Button>
+      </li>
+    ) 
   });
 }
 

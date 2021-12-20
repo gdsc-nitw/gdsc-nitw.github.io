@@ -15,8 +15,7 @@ function Header() {
               <Nav.Link className="navLinkItem" href='#technologies'>Technologies</Nav.Link>
               <Nav.Link className="navLinkItem" href='#eventsworkshop'>Events</Nav.Link>
               <Nav.Link className="navLinkItem" href='#team'>Team</Nav.Link>
-              {/* <Nav.Link className="navCtaButton" href='https://google.com' target="_blank">Become Member</Nav.Link> */}
-              <Button className="navCtaButton" href="https://google.com" variant="primary">Become Member</Button>
+              <Button className="navCtaButton" href="https://google.com" variant="link" size="sm">Become Member</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -34,7 +33,7 @@ function Header() {
                 community for everyone, there is no prerequisite and is open to
                 all.
               </p>
-              <Button href = "https://google.com/" target="_blank" variant='primary'>Become Member</Button>
+              <Button className="headerHeroBtn" href = "https://google.com/" target="_blank" variant='primary' size="lg">Become Member</Button>
             </div>
             <div className='col-md-6'>
               <Image src={art} fluid={true} />
