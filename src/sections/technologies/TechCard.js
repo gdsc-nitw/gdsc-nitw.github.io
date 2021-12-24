@@ -6,9 +6,9 @@ function TechCard(props) {
       <Card.Img variant='top' src={props.toolimg} />
       <Card.Body>
         <Card.Title className="techCardTitle">{props.toolname}</Card.Title>
-        <Card.Text>{props.toolintro}</Card.Text>
+        <Card.Text className="techCardContent">{props.toolintro}</Card.Text>
         <Button variant='primary' href={props.toolcta} target="_blank">
-          Learn More
+          Explore 
         </Button>
       </Card.Body>
     </Card>

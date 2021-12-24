@@ -46,9 +46,10 @@ function Header() {
               </Nav.Link>
               <Button
                 className='navCtaButton'
-                href='https://google.com'
+                href={settings.officialPageLink}
                 variant='link'
                 size='sm'
+                target='_blank'
                 style={{ backgroundColor: settings.themeColor }}>
                 Become Member
               </Button>
@@ -65,16 +66,11 @@ function Header() {
                 Google Developer Student Clubs
               </h1>
               <h2 className='headerHeroSubtitle'>NIT Warangal</h2>
-              <p className='headerHeroContent'>
-                DSC NITW is a community of students which aims to connect to
-                peers interested in coding and development Since it is a
-                community for everyone, there is no prerequisite and is open to
-                all.
-              </p>
+              <p className='headerHeroContent'>{settings.siteDescription}</p>
               <div className='headerBtnContainer'>
                 <Button
                   className='headerHeroBtn'
-                  href='https://google.com/'
+                  href={settings.officialPageLink}
                   target='_blank'
                   variant='primary'
                   size='lg'

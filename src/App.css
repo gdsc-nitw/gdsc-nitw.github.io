@@ -13,6 +13,7 @@
 
 .sectionTinyIntro {
   margin-bottom: 2rem;
+  color: #585858;
 }
 
 .brandLogo {
@@ -84,6 +85,7 @@
 }
 
 .headerHeroContent {
+  color: #585858;
   margin: 1.3rem 0;
 }
 
@@ -100,6 +102,10 @@
   margin: 1rem 0;
 }
 
+.about-card-content {
+  color: #585858;
+}
+
 .aboutCardLogo {
   font-size: 2em;
 }
@@ -111,6 +117,10 @@
 .techCardTitle {
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.techCardContent {
+  color: #585858;
 }
 
 .eventListItem {
@@ -167,6 +177,7 @@
 }
 
 .memberBio {
+  color: #585858;
   text-align: center;
   margin: 2rem 0;
 }
@@ -253,5 +264,16 @@
   }
   #footer h5 {
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width : 720px) {
+  .headerHeroSubtitle {
+    font-size: 1.8rem;
+  }
+  .headerHeroContent {
+    margin: 1.8rem 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
   }
 }

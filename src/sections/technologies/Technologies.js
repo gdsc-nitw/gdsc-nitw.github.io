@@ -10,26 +10,26 @@ const tools = [
   {
     toolimg: androidLogo,
     toolname: "Android Development",
-    toolintro: `Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.`,
-    toolcta: "https://google.com",
+    toolintro: `Learn the most in demand mobile development skill using Google sponsored Study Jams and exclusive learning resources and labs.`,
+    toolcta: "https://codelabs.developers.google.com/?cat=Android&product=android",
   },
   {
     toolimg: webdevLogo,
     toolname: "Web Development",
-    toolintro: `Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.`,
-    toolcta: "https://google.com",
+    toolintro: `Get hands on experience with the latest and emerging web technologies by Google via coding workshops and labs.`,
+    toolcta: "https://codelabs.developers.google.com/?cat=Web",
   },
   {
     toolimg: cloudLogo,
     toolname: "Cloud Computing",
-    toolintro: `Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.`,
-    toolcta: "https://google.com",
+    toolintro: `Participate in one of the biggest Cloud Campaigns hosted by Google exclusively on DSC clubs and get hands on experience over GCP tools and infrastructure.`,
+    toolcta: "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-warangal-presents-30-days-of-cloud-info-session/",
   },
   {
     toolimg: machineLearningLogo,
     toolname: "AI Machine Learning",
-    toolintro: `Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.`,
-    toolcta: "https://google.com",
+    toolintro: `Learn to create and understand intelligent apps using Google's Machine Learning and AI labs on Tensorflow, Fairness Indicators and numerous other APIs.`,
+    toolcta: "https://codelabs.developers.google.com/?cat=TensorFlow",
   },
 ];
 
@@ -52,7 +52,7 @@ function Technologies() {
     <Section
       sectionName='technologies'
       sectionTitle='Technologies'
-      sectionTinyIntro='Opportunities to learn and access deep technical content'>
+      sectionTinyIntro='Learn and Explore via exclusive technical content by Google'>
       <Row>{renderToolCards()}</Row>
     </Section>
   );

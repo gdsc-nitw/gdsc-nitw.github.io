@@ -43,7 +43,7 @@ function Events(props) {
     <Section
       sectionName='eventsworkshop'
       sectionTitle='Events & Workshops'
-      sectionTinyIntro='Come learn, share and connect with us in person'
+      sectionTinyIntro='Hands-on experience over trending tools and insights from industry experts'
       bgColor={props.bgColor}>
       <Tabs
         defaultActiveKey={activeTab}

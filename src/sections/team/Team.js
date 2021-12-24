@@ -6,7 +6,7 @@ import teamMembers from "./teamMembers";
 function renderMembers(teamMembers) {
   return teamMembers.map((member) => {
     return (
-      <Col md={3}>
+      <Col md={4} sm={6} lg={3}>
         <ProfileCard {...member}></ProfileCard>
       </Col>
     );
@@ -18,7 +18,7 @@ function Team(props) {
     <Section
       sectionName='team'
       sectionTitle='Meet our Team'
-      sectionTinyIntro='Passionate students driving success of the program'>
+      sectionTinyIntro='Core members who are making this happen'>
       <Row>{renderMembers(teamMembers)}</Row>
     </Section>
   );

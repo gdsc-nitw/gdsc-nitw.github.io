@@ -5,7 +5,7 @@ import {
   faInstagram,
   faTwitter,
   faYoutube,
-  faReact
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { Row, Col, Button } from "react-bootstrap";
@@ -16,7 +16,7 @@ function Footer(props) {
   return (
     <Section sectionName='footer' bgColor={props.bgColor}>
       <Row>
-        <Col md={4} style={{textAlign: "center"}}>
+        <Col md={4} style={{ textAlign: "center" }}>
           Copyright&copy; 2021. All rights reserved.
           <div className='footerSocialIcons'>
             <Button href={settings.socialHandles.linkedin} variant='link'>
@@ -35,12 +35,14 @@ function Footer(props) {
               <FontAwesomeIcon icon={faYoutube} />
             </Button>
           </div>
+          {settings.clubAddress}
         </Col>
         <Col md={4}>
           <h5>Developers</h5>
           <ul>
             <li>
-              Made with <FontAwesomeIcon icon={faHeart} /> and <FontAwesomeIcon icon={faReact} />
+              Made with <FontAwesomeIcon icon={faHeart} /> and{" "}
+              <FontAwesomeIcon icon={faReact} />
             </li>
             <li>
               <Button href={settings.coc} variant='link'>
@@ -58,12 +60,17 @@ function Footer(props) {
           <h5>Contribute</h5>
           <ul>
             <li>
-              <Button href={settings.sourcecode} variant="link">
+              <Button href={settings.contributors} variant='link'>
+                Contributors
+              </Button>
+            </li>
+            <li>
+              <Button href={settings.sourcecode} variant='link'>
                 View Source
               </Button>
             </li>
             <li>
-              <Button href={`mailto:${settings.emailId}`} variant="link">
+              <Button href={`mailto:${settings.emailId}`} variant='link'>
                 Contact Us
               </Button>
             </li>

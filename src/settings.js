@@ -4,7 +4,7 @@ const settings = {
   siteName: "Google Developer Student Clubs, NIT Warangal",
   siteLogo: logo,
   siteDescription:
-    "DSC NITW is a community of students which aims to connect to peers interested in coding and development Since it is a community for everyone, there is no prerequisite and is open to all.",
+    "DSC NITW is an open community of students that aims to connect peers interested in coding and development within a wide spectrum of fields such as Mobile App Development, Web Development, Cloud Computing and AI/ML Technologies.",
   officialPageLink:
     "https://gdsc.community.dev/national-institute-of-technology-nit-warangal/",
   themeColor: "#0d6efd",
@@ -25,7 +25,9 @@ const settings = {
   gColor4: "#34a853",
   github: "https://github.com/gdsc-nitw",
   coc: "https://github.com/gdsc-nitw/Code-of-Conduct",
-  sourcecode: "https://github.com/gdsc-nitw/gdsc-nitw.github.io"
+  sourcecode: "https://github.com/gdsc-nitw/gdsc-nitw.github.io",
+  clubAddress: "Google Developer Student Clubs, National Institute of Technology Campus, Fatima Nagar, Telangana 506004",
+  contributors: "https://github.com/gdsc-nitw/gdsc-nitw.github.io/graphs/contributors"
 };
 
 export default settings;
