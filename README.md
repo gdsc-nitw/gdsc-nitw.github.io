@@ -1,28 +1,29 @@
-## GDSC Website work
+# Google Developer Student Clubs, NIT Warangal
 
-Actual work is going on in `version-1.0` branch.
+Welcome to repository of official website for GDSC NITW.
 
-<img src="https://i.ibb.co/rfx1J5h/Screenshot-2021-12-19-205006.jpg" alt="Screenshot-2021-12-19-205006" border="0">
-<img src="https://i.ibb.co/1RgxGjv/Screenshot-2021-12-19-205017.jpg" alt="Screenshot-2021-12-19-205017" border="0">
-<img src="https://i.ibb.co/4FTdJjV/Screenshot-2021-12-19-205025.jpg" alt="Screenshot-2021-12-19-205025" border="0">
-<img src="https://i.ibb.co/0XfXQ5T/Screenshot-2021-12-19-205034.jpg" alt="Screenshot-2021-12-19-205034" border="0">
+## Stacks
 
-## Available Scripts
+- React
+- Github Pages
 
-In the project directory, you can run:
+## Contribute
 
-### `yarn start`
+The contribution guide for club projects are under development. In the mean time feel free to open issues or discuss with us on our [Discord Server](https://discord.gg/fga8hUxd8T).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Contributors
 
+- **Author** : [Amrit Pandey](https://github.com/ok-ape)
 
-### `yarn test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+MIT
 
-### `yarn build`
+Copyright 2021 GDSC NTIW
 
-Builds the app for production to the `build` folder.\
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
