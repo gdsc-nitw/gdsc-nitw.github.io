@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutCard(props) {
   return (
-    <div className='col-md-4 col-sm-6'>
+    <div className='col-sm-12 col-md-6 col-lg-4'>
       <div className='about-card'>
         <div className='about-card-header'>
           <FontAwesomeIcon style={{color: props.logoColor}} className="aboutCardLogo" icon={props.logo} />

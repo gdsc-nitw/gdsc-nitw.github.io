@@ -2,7 +2,7 @@ import { Card, Button } from "react-bootstrap";
 
 function TechCard(props) {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="techcard">
       <Card.Img variant='top' src={props.toolimg} />
       <Card.Body>
         <Card.Title className="techCardTitle">{props.toolname}</Card.Title>

@@ -36,7 +36,7 @@ const tools = [
 const renderToolCards = () => {
   return tools.map((tool) => {
     return (
-      <Col md={4} lg={3}>
+      <Col sm={6} md={4} lg={3}>
         <TechCard
           toolimg={tool.toolimg}
           toolname={tool.toolname}

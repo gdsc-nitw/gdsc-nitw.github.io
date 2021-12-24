@@ -71,15 +71,17 @@ function Header() {
                 community for everyone, there is no prerequisite and is open to
                 all.
               </p>
-              <Button
-                className='headerHeroBtn'
-                href='https://google.com/'
-                target='_blank'
-                variant='primary'
-                size='lg'
-                style={{ backgroundColor: settings.themeColor }}>
-                Become Member
-              </Button>
+              <div className='headerBtnContainer'>
+                <Button
+                  className='headerHeroBtn'
+                  href='https://google.com/'
+                  target='_blank'
+                  variant='primary'
+                  size='lg'
+                  style={{ backgroundColor: settings.themeColor }}>
+                  Become Member
+                </Button>
+              </div>
             </div>
             <div className='col-md-6'>
               <Image src={art} fluid={true} />

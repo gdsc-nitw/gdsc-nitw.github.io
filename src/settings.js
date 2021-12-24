@@ -23,6 +23,9 @@ const settings = {
   gColor2: "#ea4335",
   gColor3: "#fbbc05",
   gColor4: "#34a853",
+  github: "https://github.com/gdsc-nitw",
+  coc: "https://github.com/gdsc-nitw/Code-of-Conduct",
+  sourcecode: "https://github.com/gdsc-nitw/gdsc-nitw.github.io"
 };
 
 export default settings;

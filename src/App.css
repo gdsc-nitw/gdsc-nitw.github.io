@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.sectionTitle {
+  font-weight: 600;
+}
+
 .sectionTinyIntro {
   margin-bottom: 2rem;
 }
@@ -87,7 +91,7 @@
   background-color: #fefefe;
   padding: 2em;
   min-height: 250px;
-  margin: 0 1rem;
+  margin: 1rem;
   border: 1.5px solid #ccc;
   border-radius: 5px;
 }
@@ -98,6 +102,10 @@
 
 .aboutCardLogo {
   font-size: 2em;
+}
+
+.techcard {
+  margin-bottom: 1rem;
 }
 
 .techCardTitle {
@@ -189,14 +197,61 @@
 }
 
 .comBtn + .comBtn {
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
-#footer {
+#footer h5 {
+  font-size: 1.5rem;
   text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#footer a {
+  color: #f1f1f1;
+  margin: -2px 0;
+}
+
+#footer ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.2;
+}
+
+#footer ul li {
+  line-height: 1.1;
 }
 
 .footerSocialIcons a {
-  color: #f3f3f3;
   font-size: 2rem;
+}
+
+@media screen and (max-width : 400px) {
+  .brandInnerContainer span {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .headerHeroTitle {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  .headerHeroSubtitle {
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  .headerBtnContainer {
+    text-align: center;
+  }
+  .headerHeroContent {
+    font-size: 1.05rem;
+  }
+  .sectionTinyIntro {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+  #footer h5 {
+    margin-top: 2rem;
+  }
 }
