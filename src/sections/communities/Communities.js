@@ -9,7 +9,7 @@ function Communities(props) {
     <Section
       sectionName='communities'
       sectionTitle='Communities'
-      sectionTinyIntro='Connect with like minded individuals and fellow GDSC NITW members'
+      sectionTinyIntro='Connect with fellow GDSC NITW community members'
       bgColor={props.bgColor}>
       <div className="comBtnGroup">
         <Button className="comBtn" href={settings.socialHandles.discord} target='_blank' size="lg" variant="dark">

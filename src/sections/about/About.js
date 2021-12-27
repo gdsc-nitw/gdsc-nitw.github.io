@@ -20,19 +20,19 @@ function About(props) {
           logo={faRocket}
           logoColor={settings.gColor1}
           title='What is DSC?'
-          content='Developer Student Clubs is an initiative launched by Google to bring together students interested in Google Developer Technologies and develop associated skills in peer-to-peer learning environment.'
+          content='Developer Student Clubs is an initiative launched by Google to bring together students interested in Google Developer Technologies and associated skills in a peer-to-peer learning environment.'
         />
         <AboutCard
           logo={faLightbulb}
           logoColor={settings.gColor2}
           title='Why DSC?'
-          content='Each Developer Student Clubs have their own vision for their community. Our vision is to bring together programming and developing enthusiast despite their academic background and hone their development skills.'
+          content='Each DSC have their own vision for the community. Our vision is to bring together programming and development enthusiast irrespective of academic background and hone their development skills.'
         />
         <AboutCard
           logo={faUsers}
           logoColor={settings.gColor3}
           title='Who is it for?'
-          content='GDSC NITW is open to all the students. Students from Undergrad, Postgrad and Phd from any university can join. The only pre-requisite to join us is enthusiasm towards coding and development or atleast curiosity towards it.'
+          content='GDSC NITW is open to all the students. Undergrads, Postgrads and Phds from any university can join. The only pre-requisite to join us is enthusiasm towards coding and development or atleast curiosity towards it.'
         />
       </Row>
     </Section>

@@ -22,13 +22,13 @@ const tools = [
   {
     toolimg: cloudLogo,
     toolname: "Cloud Computing",
-    toolintro: `Participate in one of the biggest Cloud Campaigns hosted by Google exclusively on DSC clubs and get hands on experience over GCP tools and infrastructure.`,
+    toolintro: `Participate in one of the biggest Cloud Campaigns hosted by Google exclusively through DSC clubs and get hands on experience over GCP tools and infrastructure.`,
     toolcta: "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-warangal-presents-30-days-of-cloud-info-session/",
   },
   {
     toolimg: machineLearningLogo,
     toolname: "AI Machine Learning",
-    toolintro: `Learn to create and understand intelligent apps using Google's Machine Learning and AI labs on Tensorflow, Fairness Indicators and numerous other APIs.`,
+    toolintro: `Learn to create and understand intelligent apps using Google's Machine Learning and AI tools such as Tensorflow, Fairness Indicators and numerous other APIs.`,
     toolcta: "https://codelabs.developers.google.com/?cat=TensorFlow",
   },
 ];

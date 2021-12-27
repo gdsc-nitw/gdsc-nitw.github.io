@@ -41,8 +41,8 @@ function Footer(props) {
           <h5>Developers</h5>
           <ul>
             <li>
-              Made with <FontAwesomeIcon icon={faHeart} /> and{" "}
-              <FontAwesomeIcon icon={faReact} />
+              Made with <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} /> and{" "}
+              <FontAwesomeIcon icon={faReact} style={{ color: "#61dafb" }} />
             </li>
             <li>
               <Button href={settings.coc} variant='link'>
