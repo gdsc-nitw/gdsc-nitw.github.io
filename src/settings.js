@@ -26,7 +26,7 @@ const settings = {
   github: "https://github.com/gdsc-nitw",
   coc: "https://github.com/gdsc-nitw/Code-of-Conduct",
   sourcecode: "https://github.com/gdsc-nitw/gdsc-nitw.github.io",
-  clubAddress: "Google Developer Student Clubs, National Institute of Technology Campus, Fatima Nagar, Telangana 506004",
+  clubAddress: "Google Developer Student Clubs, National Institute of Technology Warangal, Fatima Nagar, Telangana 506004",
   contributors: "https://github.com/gdsc-nitw/gdsc-nitw.github.io/graphs/contributors"
 };
 
